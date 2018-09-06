@@ -1,4 +1,5 @@
-#Rover Program
+#CMPT 120L 113
+#Mars Rover Program
 # 6 September 2018
 # Author: David Stern
 
