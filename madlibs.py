@@ -3,11 +3,19 @@
 #Author: D. Stern
 #6 September 2018
 
-def MadLibs():
+def promptForWords():
+    global x,y,z,a
+    
     x = input("Enter a noun: ")
     y = input("Enter a verb: ")
     z = input("Enter an adjective: ")
     a = input("Enter a place: ")
 
+def makeAndPrintSentence():
     print("Take your " + z + " " + x + " and " + y + " it at the " + a + "!")
-MadLibs()
+
+def main():
+    promptForWords()
+    makeAndPrintSentence()
+
+main()
